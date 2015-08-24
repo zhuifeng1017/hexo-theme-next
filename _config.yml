@@ -10,6 +10,9 @@ menu:
 # Place your favicon.ico to /source directory.
 favicon: /favicon.ico
 
+# avatar
+avatar: http://iid.oss-cn-hangzhou.aliyuncs.com/head1.jpg
+
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo,next"
 
@@ -33,19 +36,19 @@ highlight_theme: normal
 
 
 # MathJax Support
-mathjax:
+#mathjax:false
 
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 # Sidebar, available value:
 #  - post    expand on posts automatically. Default.
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
-sidebar: post
-#sidebar: always
+#sidebar: post
+sidebar: always
 #sidebar: hide
 
 
@@ -72,6 +75,9 @@ duoshuo_info:
   ua_enable: true
   admin_enable: false
   user_id: 0
+
+#duoshuo
+duoshuo_shortname: zhuifeng
 
 ## DO NOT EDIT THE FOLLOWING SETTINGS
 ## UNLESS YOU KNOW WHAT YOU ARE DOING
