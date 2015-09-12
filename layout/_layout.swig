@@ -30,7 +30,7 @@
         {% if page.comments %}
           <div class="comments" id="comments">
             {% if (theme.duoshuo and theme.duoshuo.shortname) or theme.duoshuo_shortname %}
-              <div class="ds-thread" data-thread-key="{{ page.source }}"
+              <div class="ds-thread" data-thread-key="{{ encodeURIComponent(page.source) }}"
                    data-title="{{ page.title }}" data-url="{{ page.permalink }}">
               </div>
             {% elseif theme.disqus_shortname %}

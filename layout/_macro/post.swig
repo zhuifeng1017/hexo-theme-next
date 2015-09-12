@@ -56,7 +56,7 @@
             <span class="post-comments-count">
               &nbsp; | &nbsp;
               <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
-                <span class="post-comments-count ds-thread-count" data-thread-key="{{ post.source }}" itemprop="commentsCount"></span>
+                <span class="post-comments-count ds-thread-count" data-thread-key="{{ encodeURIComponent(post.source) }}" itemprop="commentsCount"></span>
               </a>
             </span>
           {% elseif theme.disqus_shortname %}
